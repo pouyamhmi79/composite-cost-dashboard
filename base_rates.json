@@ -1,0 +1,39 @@
+{
+  "project_profiles": {
+    "کف": {
+      "layers": {
+        "CSM": 2
+      },
+      "fiber_consumption": 1.1,
+      "resin_multiplier": 1.5
+    },
+    "مخزن": {
+      "layers": {
+        "CSM": 3,
+        "WR": 1
+      },
+      "fiber_consumption": 1.1,
+      "resin_multiplier": 1.5
+    },
+    "خط لوله": {
+      "layers": {
+        "WR": 2
+      },
+      "fiber_consumption": 1.1,
+      "resin_multiplier": 1.5
+    }
+  },
+  "labor_rates": {
+    "کف": 0.1,
+    "مخزن": 0.12,
+    "خط لوله": 0.15
+  },
+  "labor_unit_rate": 950000,
+  "fixed_equipment_costs": {
+    "کف": 2000000,
+    "مخزن": 3000000,
+    "خط لوله": 2500000
+  },
+  "overhead_rate": 0.1,
+  "profit_rate": 0.2
+}
